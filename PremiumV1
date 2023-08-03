@@ -13,6 +13,6 @@ local Tab = Window:NewTab("Avatar")
 
 local Tab = Window:NewTab("Fun/Other")
 
-Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
-	Library:ToggleUI()
-end)
+
+local Tab = Window:NewTab("Abuse")
+local Section = Tab:NewSection("Soon")
