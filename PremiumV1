@@ -25,3 +25,11 @@ local Tab = Window:NewTab("All")
 
 local Tab = Window:NewTab("Props")
 local Section = Tab:NewSection("Soon!")
+
+local Tab = Window:NewTab("Features")
+local Section = Tab:NewSection("Non-Premium")
+
+local Section = Tab:NewSection("Premium")
+
+local Tab = Window:NewTab("Tools")
+local Section = Tab:NewSection("Soon!")
