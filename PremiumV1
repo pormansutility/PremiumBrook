@@ -12,3 +12,7 @@ local Tab = Window:NewTab("Car")
 local Tab = Window:NewTab("Avatar")
 
 local Tab = Window:NewTab("Fun/Other")
+
+Section:NewKeybind("KeybindText", "KeybindInfo", Enum.KeyCode.F, function()
+	Library:ToggleUI()
+end)
