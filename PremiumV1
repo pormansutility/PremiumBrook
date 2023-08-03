@@ -1,0 +1,12 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Pormans Utility| Brookhaven Premium V1", "Serpent")
+
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Chat Settings")
+local Section = Tab:NewSection("Soon")
+
+local Tab = Window:NewTab("Home")
+
+local Tab = Window:NewTab("Car")
+
+local Tab = Window:NewTab("Avatar")
