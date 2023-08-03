@@ -1,16 +1,7 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Pormans Utility| Brookhaven Premium V1", "Synapse")
+local Window = Library.CreateLib("Pormans Utility| Brookhaven Premium V1", "Midnight")
 
-local Tab = Window:NewTab("Main")
-local Section = Tab:NewSection("Chat Settings")
-
-Section:NewButton("Chat Bypasser", "Join https://discord.gg/vadrifts for it to work", function()
-    getgenv().AuthX_Key = "D7N1wFj376XNy5GPkOUu73d235ePrzcM"
-
-loadstring(game:HttpGet("https://vadrifts.dev/versions/current"))()
-    print("Clicked")
-end)
-local Section = Tab:NewSection("Soon")
+local Tab  Window:NewTab("Main")
 
 local Tab = Window:NewTab("Home")
 
@@ -18,25 +9,7 @@ local Tab = Window:NewTab("Car")
 
 local Tab = Window:NewTab("Avatar")
 
-local Tab = Window:NewTab("Fun/Other")
+local Tab = Window:NewTab("Fun")
 
-
-local Tab = Window:NewTab("Abuse")
-local Section = Tab:NewSection("Soon")
-
-local Tab = Window:NewTab("Teleport")
-
-local Tab = Window:NewTab("Instant")
-
-local Tab = Window:NewTab("All")
-
-local Tab = Window:NewTab("Props")
-local Section = Tab:NewSection("Soon!")
-
-local Tab = Window:NewTab("Features")
-local Section = Tab:NewSection("Non-Premium")
-
-local Section = Tab:NewSection("Premium")
-
-local Tab = Window:NewTab("Tools")
-local Section = Tab:NewSection("Soon!")
+local Tab = Window:NewTab("Other")
+local Section = Tab:NewSection("Chat Settings")
