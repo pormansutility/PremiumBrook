@@ -3,6 +3,13 @@ local Window = Library.CreateLib("Pormans Utility| Brookhaven Premium V1", "Syna
 
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Chat Settings")
+
+Section:NewButton("Chat Bypasser", "Join https://discord.gg/vadrifts for it to work", function()
+    getgenv().AuthX_Key = "D7N1wFj376XNy5GPkOUu73d235ePrzcM"
+
+loadstring(game:HttpGet("https://vadrifts.dev/versions/current"))()
+    print("Clicked")
+end)
 local Section = Tab:NewSection("Soon")
 
 local Tab = Window:NewTab("Home")
