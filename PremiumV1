@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("Pormans Utility| Brookhaven Premium V1", "Ocean")
+local Window = Library.CreateLib("Pormans Utility| Brookhaven Premium V1", "Synapse")
 
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Chat Settings")
@@ -16,3 +16,12 @@ local Tab = Window:NewTab("Fun/Other")
 
 local Tab = Window:NewTab("Abuse")
 local Section = Tab:NewSection("Soon")
+
+local Tab = Window:NewTab("Teleport")
+
+local Tab = Window:NewTab("Instant")
+
+local Tab = Window:NewTab("All")
+
+local Tab = Window:NewTab("Props")
+local Section = Tab:NewSection("Soon!")
